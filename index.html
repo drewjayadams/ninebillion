@@ -8,21 +8,21 @@
       font-family: "Helvetica", monospace;
       text-align: center;
       margin: 0;
- overflow-y: scroll;/* Prevents scroll bars */
+    overflow-y: scroll;/* Prevents scroll bars */
         min-height: 1000px;
         background-attachment: scroll;
       position: relative;
         background-color: black;
         background-repeat: no-repeat;
-        background-size: auto 2850px;
+        background-size: auto 2400px;
         background-position: center top;
       transition: background-image 5s ease-in-out; /* Smooth crossfade transition */
-        white-space: pre-wrap
-    }
+        white-space: pre-wrap;
+      }
       
     #text-container {
       position: absolute;
-  top: 10vh;
+  top: 0vh;
       color: white;
       padding: 20px;
       border-radius: 10px;
@@ -31,10 +31,12 @@
       width: 100%; /* Set the width to 100% */
       box-sizing: border-box; /* Include padding and border in the width calculation */
         font-size:18pt;
+        height: 2400px;
     }
       #challenge-text{
           width: 50%;
-          margin: auto;
+          position:relative;
+          margin: auto auto 10vh;
       }
 
     #challenge-input {
